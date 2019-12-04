@@ -13,3 +13,8 @@ h1 {
     margin: 0;
     
 }
+
+footer {
+    background-color: pink;
+    height: 10vh;
+}
