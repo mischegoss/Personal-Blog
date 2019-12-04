@@ -1,0 +1,50 @@
+.aside {
+    grid-area: aside;
+    height: 70vh;
+    background-color: blue;
+  
+  }
+
+  .main {
+    grid-area: main;
+    background-color: grey;
+    height: 70vh;
+    overflow: scroll;
+    
+  }
+
+ .card-content-container {
+     min-height: 50vh;
+ }
+
+ .main h2 {
+     text-align: center;
+ }
+
+  .grid-container-blog {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'aside aside main main main main' 
+      'footer footer footer footer footer footer';
+    
+  }
+
+  @media (max-width: 600px) {
+     
+    .photo-float {
+        float: right;
+    }
+
+    .aside h2 {
+        text-align: center;
+    }
+
+    .grid-container-blog  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'main main main main main main'
+        'aside aside aside aside aside aside' 
+        'footer footer footer footer footer footer';
+    }
+  }

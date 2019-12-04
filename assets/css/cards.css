@@ -3,6 +3,7 @@
     padding: 10px;
     margin: 15px;
     border-radius: 5px;
+    max-height: 60vh;
   
  
 }
@@ -18,10 +19,12 @@
 
 .card-content-container {
     flex: 1;
+ 
 }
 
 .card-photo-container {
     flex: 1;
+   
 }
 
 .card-photo {
