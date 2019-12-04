@@ -1,0 +1,35 @@
+.left {
+    grid-area: left;
+    min-height: 70vh;
+    background-color: blue;
+  
+  }
+
+  .right {
+    grid-area: right;
+    background-color: grey;
+    height: 70vh;
+    
+  }
+
+  .grid-container-indexsection {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left right right right' 
+      'footer footer footer footer footer footer';
+    
+  }
+
+  @media (max-width: 600px) {
+    .left, right {
+        height: 35vh;
+    }
+    .grid-container-indexsection  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left'
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }

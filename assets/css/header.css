@@ -1,4 +1,10 @@
-header {
+.header {
+    grid-area: header;
+}
+
+
+
+.header-contents {
     position: relative;
     background-color: #9bddff ;
     width: 100vw;
@@ -6,8 +12,8 @@ header {
     border-bottom: 5px solid #0d0d55;
 }
 
-h1 {
-    
+.header h1 {
+    color: #0d0d55;
     position: absolute;
     bottom: 0;
     left: 10px;

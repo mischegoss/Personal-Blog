@@ -1,5 +1,30 @@
-.article-container {
-    height: 70vh;
-    width: 100%;
-    background-color: red;
+.card {
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+  
+ 
 }
+
+.column {
+    flex: 1;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content-container {
+    flex: 1;
+}
+
+.card-photo-container {
+    flex: 1;
+}
+
+.card-photo {
+    margin-right: 10px;
+}
+
