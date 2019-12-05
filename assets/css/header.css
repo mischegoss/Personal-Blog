@@ -1,27 +1,29 @@
 .header {
     grid-area: header;
-}
-
-
-
-.header-contents {
+    min-height: 60px;
+  }
+  
+  .header-contents {
     position: relative;
-    background-color: #9bddff ;
+    background-color: #9bddff;
     width: 100vw;
-    height: 20vh;
+    min-height: 60px;
     border-bottom: 5px solid #0d0d55;
-}
-
-.header h1 {
-   padding: 0;
-   margin: 0;
+  }
+  
+  .header h1 {
+    padding: 0;
+    margin: 0;
     position: absolute;
     bottom: 0;
     left: 10px;
-}
-
-nav {
+  }
+  
+  nav {
     position: absolute;
     bottom: 0;
     right: 10px;
-}
+  }
+  
+
+

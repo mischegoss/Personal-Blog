@@ -11,7 +11,7 @@ body {
     margin: 0;
   }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
 
     color: #3b271d;
@@ -23,12 +23,11 @@ p {
 font-family: 'Solway', serif;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-.italics {
-    font-style: italic;
+button {
+    background-color: green;
+    min-width: 60px;
+    height: auto;
+    color: white;
 }
 
 .underline {
@@ -39,7 +38,26 @@ font-family: 'Solway', serif;
     color: #ff5b00;
 }
 
-footer {
-    background-color: pink;
-    height: 10vh;
+.blue {
+    color: blue;
 }
+
+.green {
+    color: green;
+}
+
+a:visited {
+    color: #2e963d;
+  }
+  
+
+  a:hover {
+    color: #ff5b00 ;
+  }
+  
+
+  a:active {
+    color: #010203;
+  }
+
+   

@@ -1,3 +1,17 @@
 .footer {
     grid-area: footer;
+  
+    background-color: green; 
+    min-height: 60px;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fab {
+    margin: 15px;
 }

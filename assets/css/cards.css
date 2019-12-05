@@ -3,7 +3,7 @@
     padding: 10px;
     margin: 15px;
     border-radius: 5px;
-    max-height: 60vh;
+    flex: 0 1 400px;
   
  
 }
@@ -30,4 +30,11 @@
 .card-photo {
     margin-right: 10px;
 }
+
+.img {
+    max-width: 150px;
+    height: auto;
+}
+
+
 
