@@ -21,10 +21,6 @@
   }
   
   @media (max-width: 760px) {
-    .left,
-    right {
-      height: 35vh;
-    }
     .grid-container-indexsection {
       grid-template-areas:
         "header header header header header header"

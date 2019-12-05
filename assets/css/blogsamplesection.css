@@ -1,26 +1,22 @@
 .aside {
     grid-area: aside;
-  
-    background-color: blue;
+    background-color: blue; 
+    min-height: 70vh;
   }
   
   .main {
     grid-area: main;
     background-color: grey;
-  
-    overflow: scroll;
+    min-height: 70vh;
   }
   
-  .card-content-container {
-    min-height: 50vh;
-  }
-  
-  .main h2 {
+  .main-title {
     text-align: center;
   }
   
   .grid-container-blog {
     display: grid;
+    min-height: 100%;
     grid-template-areas:
       "header header header header header header"
       "aside aside main main main main"
@@ -31,7 +27,7 @@
     color: blue;
     margin: 0 5px 5px 0;
   }
-  
+
   @media (max-width: 600px) {
     .grid-container-blog {
       grid-template-areas:
@@ -40,12 +36,8 @@
         "aside aside aside aside aside aside"
         "footer footer footer footer footer footer";
     }
-  
-    .photo-float {
-      float: right;
-    }
-  
-    .aside h2 {
+
+    .card-author {
       text-align: center;
     }
   }

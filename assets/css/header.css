@@ -1,6 +1,8 @@
 .header {
     grid-area: header;
     min-height: 60px;
+     margin: 0 auto;
+       
   }
   
   .header-contents {
@@ -11,7 +13,7 @@
     border-bottom: 5px solid #0d0d55;
   }
   
-  .header h1 {
+  .header-title {
     padding: 0;
     margin: 0;
     position: absolute;
