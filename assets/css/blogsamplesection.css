@@ -31,6 +31,7 @@
     color: blue;
     margin: 0 5px 5px 0;
   }
+  
   @media (max-width: 600px) {
     .grid-container-blog {
       grid-template-areas:
